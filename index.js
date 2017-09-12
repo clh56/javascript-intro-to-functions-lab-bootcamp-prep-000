@@ -4,19 +4,19 @@ return string.toUpperCase()
 
 shout("hello");
 
-function logshout(string) {
-  return console.log(string.toLowerCase())
+function logShout(string) {
+  return console.log(string.toUpperCase())
 }
 
 logShout ("hello");
 
-function whisper(string){
+function whisper(string) {
   return string.toLowerCase();
 }
 
 whisper("HELLO");
 
-function logWhisper(string){
+function logWhisper(string) {
   return console.log(string.toLowerCase())
 }
 
@@ -31,3 +31,7 @@ function sayHiToGrandma(string) {
   if (string === "I love you, Grandma.")
   { return "I love you, too." }
 }
+
+sayHiToGrandma( "hello" );
+sayHiToGrandma( "HELLO" );
+sayHiToGrandma( "I love you, Grandma." )
