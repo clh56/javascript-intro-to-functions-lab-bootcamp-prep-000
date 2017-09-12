@@ -3,7 +3,6 @@ return string.toUpperCase()
 }
 
 function whisper(string) {
-  if (string.toLowerCase() === hello) { return hello }
   return string.toLowerCase()
 }
 
